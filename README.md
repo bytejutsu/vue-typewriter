@@ -14,7 +14,7 @@ The Typewriter component is a Vue 3 component that simulates the effect of text 
 To install this component in your project, use npm:
 
 ```
-npm install vue-typewriter
+npm install @btjspr/vue-typewriter
 ```
 
 ### Usage:
@@ -22,7 +22,7 @@ npm install vue-typewriter
 Import the component and register it within your Vue component or globally.
 
 ```javascript
-import Typewriter from 'vue-typewriter';
+import Typewriter from '@btjspr/vue-typewriter';
 ```
 
 Use it in your template:
