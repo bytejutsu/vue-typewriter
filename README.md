@@ -1,4 +1,4 @@
-## Typewriter Vue Component
+## Typewriter Vue 3 Component
 
 The Typewriter component is a Vue 3 component that simulates the effect of text being typed out, character by character, in a typewriter fashion. It offers customization options, such as typing speed, start delay, and more.
 
