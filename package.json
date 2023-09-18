@@ -1,0 +1,20 @@
+{
+  "name": "vue-typewriter",
+  "version": "1.0.0",
+  "description": "simple vue 3 typewriter component that is styling agnostic",
+  "main": "src/Typewriter.vue",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typerwriter",
+    "vue.js3",
+    "vue3",
+    "typewriting-effect"
+  ],
+  "author": "dhia nabli",
+  "license": "ISC"
+}
