@@ -1,5 +1,5 @@
 <template>
-    <div :class="typewriter" :style="textStyles">
+    <div class="typewriter" :style="textStyles">
         {{ displayedText }}<span :class="['cursor', {'cursor--static': isTyping }]" :style="finalCursorStyles"></span>
     </div>
 </template>
@@ -59,22 +59,9 @@ let typeInterval;
 
 onMounted(() => { startTyping(text) });
 
-watch(text, (newVal) => {
-    displayedText.value = "";
-    index = 0;
-    typeInterval = setInterval(() => {
-        if (index < newVal.length) {
-            displayedText.value += newVal.charAt(index);
-            index++;
-        } else {
-            clearInterval(typeInterval);
-        }
-    }, speed);
-});
-
 const startTyping = (typingText) => {
 
-    console.log('startTyping called with:', typingText);
+    //console.log('startTyping called with:', typingText);
 
     if (!typingText || !typingText.length) return;
 
@@ -104,7 +91,7 @@ const startTyping = (typingText) => {
             if (index < typingText.length) {
                 displayedText.value += typingText.charAt(index);
                 index++;
-                console.log('Current displayedText:', displayedText.value);
+                //console.log('Current displayedText:', displayedText.value);
             } else {
                 clearInterval(typeInterval);
                 isTyping.value = false;

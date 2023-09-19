@@ -1,6 +1,6 @@
 {
   "name": "@btjspr/vue-typewriter",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "simple vue 3 typewriter component that is styling agnostic",
   "main": "src/Typewriter.vue",
   "peerDependencies": {
